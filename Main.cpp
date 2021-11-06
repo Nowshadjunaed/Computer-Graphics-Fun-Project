@@ -91,7 +91,7 @@ int main()
             PT p = {(int)pnt.x-WINDOW_W, (int)pnt.y};
             if(isInsideCircle(-600,-200,30,p.x,p.y) && GetAsyncKeyState(VK_LBUTTON))
             {
-                toggle_x = -3;
+                toggle_x = -increament;
                 toggle_y = 0;
 
                 setbkcolor(LIGHTGREEN);
@@ -108,7 +108,7 @@ int main()
 
             else if(isInsideCircle(-480,-200,30,p.x,p.y) && GetAsyncKeyState(VK_LBUTTON))
             {
-                toggle_x = 3;
+                toggle_x = increament;
                 toggle_y=0;
 
                 setbkcolor(LIGHTGREEN);
@@ -124,7 +124,7 @@ int main()
             }
             else if(isInsideCircle(-540,-140,30,p.x,p.y)&& GetAsyncKeyState(VK_LBUTTON))
             {
-                toggle_y = 3;
+                toggle_y = increament;
                 toggle_x=0;
 
                 setbkcolor(LIGHTGREEN);
@@ -140,7 +140,7 @@ int main()
             }
             else if(isInsideCircle(-540,-260,30,p.x,p.y)&& GetAsyncKeyState(VK_LBUTTON))
             {
-                toggle_y = -3;
+                toggle_y = -increament;
                 toggle_x=0;
 
 

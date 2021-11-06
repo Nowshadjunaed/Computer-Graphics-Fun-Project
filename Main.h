@@ -11,6 +11,7 @@ int counter_y = 0;
 int toggle_x = 0;
 int toggle_y = 0;
 int FILL_COLOR=BROWN;
+int increament = 4;
 const int WINDOW_W = 1500, WINDOW_H = 700;
 
 struct PT
