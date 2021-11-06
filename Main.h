@@ -12,6 +12,8 @@ int toggle_x = 0;
 int toggle_y = 0;
 int FILL_COLOR=BROWN;
 int increament = 4;
+
+
 const int WINDOW_W = 1500, WINDOW_H = 700;
 
 struct PT
@@ -31,6 +33,9 @@ struct PT
 };
 vector<pair<PT,int>>tran,circle_tran;
 vector<PT>polyg;
+PT prvs_circle = PT(-600,-200);
+PT prvs_txt = PT(160,560);
+char prvs_str[] = "L";
 struct EDGE
 {
     double y_min, y_max,x_with_y_min,m_inv;

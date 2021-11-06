@@ -73,10 +73,7 @@ int main()
     setbkcolor(LIGHTGREEN);
     setcolor(BLACK);
 
-    PT prvs_circle = PT(-600,-200);
-    PT prvs_txt = PT(160,560);
 
-    char prvs_str[] = "L";
 
 
     while(1)
